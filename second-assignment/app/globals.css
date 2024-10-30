@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+ul {
+  display: flex;
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color:black;
+  ;
+  padding-top: 20px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  border: 2px double white;
+  padding-bottom: 10px;
+}
+
+li{
+  font-weight: bold;
+  margin-right: auto;
+  float: left;
+  font-size: 25px;
+  padding-left: 30px;
+  padding-bottom: 12px;
+  font-family: 'brushian', cursive;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 5px;
+}
+
+ a:hover {
+  text-decoration: underline;
+  color: aqua;
+}
+
+footer{
+
+  background-color: black;
+  ;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  border: 2px double white;
+  flex: 1;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  bottom: 0;
+  width: 100%;
+
+  
+}
+
+footer a{
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: aqua;
+}
+
+footer p{
+  margin: 0;
+  font-size: 25px;
+}
+
+
+button{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #1abc9c;
+  color: white;
+}
+div{
+ 
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  
+
+}
+
+h2{
+  font-size: 1.8em;
+  margin: 0;
+}
+
+p{
+
+  gap: 15px;
+}
+
+p a{
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+p  a:hover {
+  color: #1abc9c;
+}
+
+h6{
+  margin: 5px 0;
+  font-size: 0.9em;
+}
+
+
+h1{
+ text-align: center;
+ font-size: 25px;
+ color: #fff;
+ margin-top: 130px;
+ padding-bottom: 10px;
+    
+}
