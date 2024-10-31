@@ -1,34 +1,12 @@
 import React from 'react'
 
 const Footer = () => {
+
   return (
-    <div>
-      
+    <div className='mt-16 py-6 text-center bg-accent bg-black'>
       <footer>
-  <div >
-    <div>
-      <h2>My Website</h2>
-    </div>
-    
-    <div >
-        <p>
-      <a href="">Home</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Contact Us</a>
-      </p>
-    </div>
-
-    <div >
-      <h6> ⓒ 2024 My Coffee Shop.
-      All Rights Reserved.
-      </h6>
-      <h6>@copyRight</h6>
-    </div>
-  </div>
-</footer>
-
-      
+    ⓒ COFFEE SHOP | All rights reserved. 2024
+    </footer>
     </div>
   )
 }
